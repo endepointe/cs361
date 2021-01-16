@@ -1,0 +1,51 @@
+
+Life Generator
+
+Alvin Johns
+
+
+Contents
+
+1	Introduction
+
+	1.1 Purpose
+
+	1.2 General Description
+	
+	1.3 Scope
+
+2	Requirements
+
+	3.1	Functional Requirements
+
+	3.2	Non-functional Requirements	
+
+
+********************************************************************************
+
+1. Introduction
+
+
+1.1 Purpose
+
+		The purpose of this SRS document is to describe the requirements
+	specification for a microservice that generates plausible aspects of a 
+	persons' life based on input data.
+
+1.2	General Description
+	
+		Given input data from Craigslist, the Life Generator will formulate 
+	conclusions about aspects of a persons' life (e.g., their job description,
+	their home, their vehicle, items they rent or own, etc.).
+
+1.3 Scope
+
+		This document serves only to generate plausible aspects of a person's 
+	life. This document does not attempt, in any away, to collect specific 
+	information about a person using the input data. When data is used, it will
+	be assigned a subject number to produce speculations about a person's life,
+	not facts.
+ 
+	
+	
+
