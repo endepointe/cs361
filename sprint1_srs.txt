@@ -16,9 +16,9 @@ Contents
 
 2	Requirements
 
-	3.1	Functional Requirements
+	2.1	Functional Requirements
 
-	3.2	Non-functional Requirements	
+	2.2	Non-functional Requirements	
 
 
 ********************************************************************************
@@ -45,7 +45,12 @@ Contents
 	information about a person using the input data. When data is used, it will
 	be assigned a subject number to produce speculations about a person's life,
 	not facts.
- 
-	
-	
 
+
+2. Requirements
+
+
+2.1	Functional Requirements
+
+	
+	
