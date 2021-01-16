@@ -65,3 +65,28 @@ Contents
 
 	- As a developer, I will need to create the database to store subject
 	  data.
+
+2.2 Non-Functional Requirements
+
+	- The microservice API that is created should be agnostic to the language
+	  being used to access it. The API should return data the can be interpreted
+	  however the end-user chooses. 
+	
+		Quality Attributes: Accessibility, Interoperability
+
+	- The user-interface of the microservice will be simple and intuitive. The
+	  user should not have to guess about what to steps to perform.
+
+		Quality Attribute: Memorability
+
+	- The microservice should produce results about plausible aspects of a 
+	  subject's life in under 10 seconds. During this duration, the user should
+	  be given feedback about where the software is at in the process.
+
+	- The database and microservice will active >99% of the time.
+
+		Quality Atttribute: Integrity
+
+********************************************************************************
+
+
