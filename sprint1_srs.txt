@@ -52,5 +52,16 @@ Contents
 
 2.1	Functional Requirements
 
-	
-	
+	- As a developer, I will need to provide an API so that other users can
+	  access the microservice.
+
+	- As a developer, I will need to have access to external APIs to gather
+	  information to use within the microservice.
+
+	- As a user, I will need to view information about a subject through a user
+	  interface. 
+
+	- As a client, I will need access to the raw data. 
+
+	- As a developer, I will need to create the database to store subject
+	  data.
