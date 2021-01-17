@@ -28,13 +28,13 @@ Contents
 
 1.1 Purpose
 
-		The purpose of this SRS document is to describe the requirements
+		The purpose of this SRS document is to describe the requirements.
 	specification for a microservice that generates plausible aspects of a 
 	persons' life based on input data.
 
 1.2	General Description
 	
-		Given input data from Craigslist, the Life Generator will formulate 
+		Given input data from Craigslist, the Life Generator will formulate. 
 	conclusions about aspects of a persons' life (e.g., their job description,
 	their home, their vehicle, items they rent or own, etc.).
 
@@ -69,7 +69,7 @@ Contents
 2.2 Non-Functional Requirements
 
 	- The microservice API that is created should be agnostic to the language
-	  being used to access it. The API should return data the can be interpreted
+	  being used to access it. The API should return data that can be interpreted
 	  however the end-user chooses. 
 	
 		Quality Attributes: Accessibility, Interoperability
@@ -90,7 +90,7 @@ Contents
 
 		Justification: If end-users are not able to determine what steps they are
 		to take to get data from the microservice, or they do not have a place 
-		where they can search for answers, the likelyhood that the end-user will
+		where they can search for answers, the likelihood that the end-user will
 		use the service is small.
 
 
@@ -105,12 +105,12 @@ Contents
 		service is not working and keep trying - which would produce the same 
 		wait-time. The user may choose to keep waiting but begin to assume that
 		the microservice is not efficient or of high-quality. The user may also
-		choose to not use the service altogether becuase of the relatively long
+		choose to not use the service altogether because of the relatively long
 		wait-time. 
 
 	- The database and microservice will active >99% of the time.
 
-		Quality Atttribute: Integrity, Reliability
+		Quality Attributes: Integrity, Reliability
 
 		Justification: If the service is frequently down, the end-users are less
 		likely to return. This is analogous to stores that are always closed when 
@@ -120,10 +120,10 @@ Contents
 
 	- The provided formatted data should be in JSON format.
 
-		Quality Attribute: Iteroperability.
+		Quality Attribute: Interoperability.
 
 		Justification: JSON is a format that is language agnostic. It can be 
-		interpretted by many forms of programming languages.
+		interpreted by many forms of programming languages.
 
 ********************************************************************************
 
